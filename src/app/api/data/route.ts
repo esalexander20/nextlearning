@@ -5,6 +5,8 @@ import { HeaderType } from '@/app/types/menu'
 import { TestimonialType } from '@/app/types/testimonial'
 import { NextResponse } from 'next/server'
 
+export const runtime = 'edge';
+
 const HeaderData: HeaderType[] = [
   { label: 'Home', href: '/' },
   { label: 'Courses', href: '/#courses  ' },
